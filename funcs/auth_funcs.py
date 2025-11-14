@@ -1,5 +1,5 @@
 import os
-import streamlit as st
+import streamlit as st # pyright: ignore[reportMissingImports]
 from spotipy import Spotify
 from spotipy.oauth2 import SpotifyOAuth
 

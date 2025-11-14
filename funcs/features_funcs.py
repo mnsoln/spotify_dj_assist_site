@@ -1,10 +1,10 @@
 import http.client
 import json
-import streamlit as st
+import streamlit as st # pyright: ignore[reportMissingImports]
 from typing import List, Dict, Any
-import pandas as pd
+import pandas as pd # pyright: ignore[reportMissingModuleSource]
 import os
-from spotipy import Spotify
+from spotipy import Spotify # pyright: ignore[reportMissingImports]
 
 
 RECCOBEATS_BATCH_SIZE = 40      # Max IDs per ReccoBeats API request
